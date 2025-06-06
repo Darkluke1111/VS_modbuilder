@@ -1,0 +1,1 @@
+Docker image for compiling Vintage Story mods that follow the structure of the Visual Studio Template "VintageStory.Mod.BasicTemplate" (https://wiki.vintagestory.at/Modding:Preparing_For_Code_Mods)
