@@ -1,0 +1,13 @@
+services:
+  vintage-story:
+    image: vsmb:latest
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: vsmb
+    volumes:
+      - ./mod:/mod
+    environment:
+      - VERSION=1.20.0
+    stdin_open: true
+    tty: true
